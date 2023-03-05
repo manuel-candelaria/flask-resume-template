@@ -1,0 +1,178 @@
+# Profile section
+profile:
+  first_name: Lorenzo Manuel
+  last_name: Candelaria
+  picture: https://mycvpictures.s3.eu-south-2.amazonaws.com/1661117909495+(1).jpeg   # Hosted picture
+  # picture: static/img/rodo_2021.png  # Local picture
+  contact:
+    address_one: Madrid, Spain
+    address_two:
+    phone: (+34) ASK-4-IT!
+  email: lorenzo.candelaria@gmail.com
+  description: |
+    Enthusiastic, motivated, and knowledgeable professional with 18 + years of
+
+    experience leading teams and delivering technology services and products for
+
+    customers around the globe. A software engineering leader who loves developing
+
+    high-performing teams by promoting ownership, transparency, collaboration, and
+
+    communication. Demonstrable experience managing teams, projects, and
+
+    products.
+
+
+# Social section
+social:
+  website: https://tool42.xyz
+  github: https://github.com/manuel-candelaria/
+  twitter: https://twitter.com/manu-candelaria/
+  linkedin: https://www.linkedin.com/in/manuelcan/
+  facebook:
+  dev:
+  medium:
+
+
+# Experience section
+experience:
+  item7:
+    position: Delivery Director
+    company: Wizeline
+    from: April 2020
+    to: October 2022
+    description: >
+      I played a crucial role in launching and growing a delivery center in EMEA, defining processes, best practices, and KPIs, and hiring over 50 key roles. My competitive approach and strategic/tactical problem-solving helped generate over $4.5M in revenue while maintaining target margins and prioritizing customer satisfaction.
+    link: http://wizeline.com/
+  item6:
+    position: Director of Engineering
+    company: Wizeline
+    from: November 2018
+    to: April 2020
+    description: >
+      I managed a team of 28 professionals, defined a product roadmap, and delivered a high-performing SAAS product as the leader of the conversational UI practice. I communicated with stakeholders and ensured customer satisfaction through ongoing value delivery.
+    link: http://wizeline.com/
+  item5:
+    position: Engineering Manager
+    company: Wizeline
+    from: December 2017
+    to: November 2018
+    description: >
+      I collaborated with various teams to align company goals and oversee project delivery, while managing team performance, onboarding new engineers, and ensuring project and team health.  item4:
+    position: Program Manager
+    company: Wizeline
+    from: January 2017
+    to: December 2018
+    description: >
+      As a program manager, I delivered customer-focused solutions by working with engineering teams to drive customer product roadmaps while identifying improvement opportunities.
+    link: http://www.wizeline.com
+  item3:
+    position: Senior Project Manager
+    company: Hewlett Packard Enterprise
+    from: May 2011
+    to: January 2017
+    description: >
+      As a project manager, I managed all aspects of technology projects. I removed roadblocks, negotiated with stakeholders, ensured communication flow, and coordinated teams working on various initiatives. Notably, I established an Agile practice, implemented a follow-the-sun model, improved on-time delivery, and reduced production bugs through increased testing.
+    link: https://www.hpe.com/us/en/home.html
+  item2:
+    position: Solution Manager
+    company: FLEX
+    from: November 2006
+    to: May 2011
+    description: >
+      As a solutions manager, I analyzed business requirements, wrote specs, modeled solutions using the in-house system, and coordinated teams for development and testing. Additionally, I trained key users and support teams and wrote end-user documentation.
+    link: https://flex.com/
+  item1:
+    position: Software Engineer
+    company: Solectron
+    from: July 2004
+    to: November 2006
+    description: >
+      As a software developer, I developed a chemical traceability platform to track chemical usage in production, achieving 100% RoHS compliance and a successful rollout in the Asia Pacific and EMEA. I also demonstrated technical leadership in developing internal tools and platforms using algorithms and code.
+    link: https://en.wikipedia.org/wiki/Solectron
+  reference: https://www.linkedin.com/in/manuelcan
+
+
+# Education section
+education:
+  item1:
+    institution: University of Texas at El Paso
+    program: Bachelor of Science
+    description: Computer science - Human Computer Interaction
+    gpa: GPA 3.5
+    from: January 1997
+    to: May 2002
+  reference: hhttps://www.utep.edu/cs/
+
+
+# Community section:
+community:
+  item0:
+    institution:
+    program:
+    description:
+    from:
+    to:
+    link:
+
+
+
+# Skills section
+tools:
+  # Consider that the following are fa icons:
+  #   https://fontawesome.com/icons?d=gallery&s=brands
+  - python
+  - markdown
+  - git
+  - github
+  - google
+  - google-drive
+  - slack
+  - trello
+  - apple
+  - linux
+  - aws
+  - confluence
+  - jira
+
+extra_skills:
+  # - Facebook Messenger, Telegram, and SMS bots
+  - Leadership 
+  - Conflict Resolution 
+  - Communication 
+  - Critical Thinking 
+  - Problem Solving 
+  - Adaptability 
+  - Transparency
+
+
+# Talks and workshops section
+workshops:
+  item0:
+    event:
+    workshop:
+    material:
+    link:
+
+  reference: 
+
+
+# Projects section
+projects:
+  item1:
+    title: 
+    subtitle:
+    description:
+    link:
+    github:
+    img:
+    tags: [Flask, Python, Bootstrap]
+
+
+# Certifications and awards section
+awards:
+  - FOUNDATIONS AND FOCUS Pragmatic Institute | Oct 2018
+  - CERTIFIED SAFE PRACTITIONER Scaled Agile, Inc. | Feb 2015
+  - AGILE CERTIFIED PRACTITIONER PMI | Feb 2015
+  - CERTIFIED SCRUM MASTER Scrum Alliance | Sep 2012
+

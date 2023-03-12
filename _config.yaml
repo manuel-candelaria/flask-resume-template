@@ -160,15 +160,29 @@ workshops:
 # Projects section
 projects:
   item1:
-    title: 
-    subtitle:
-    description:
-    link:
+    title: Australian Open Chatbot
+    subtitle: A digital voice for the Australian Open
+    description: I was lucky enough to be able to participate and lead the UX an Engineering teams in designing, developing, and deploying the chatbot. 
+    link: https://www.wizeline.com/australianopen/
     github:
-    img:
-    tags: [Flask, Python, Bootstrap]
-
-
+    img: ao-chatbot.png
+    tags: [NLP, Conversational UI, Artificial Intelligence]
+  item2:
+    title: Chatbot for Rugby World Cup Sevens
+    subtitle: A digital fan experience for RWC7s on Facebook Messenger. 
+    description: I collaborated with a team of brilliant UX designers, Software Engineers, and SREs to delivery a digital fan experience.
+    link: https://www.wizeline.com/case-study/usa-rugby-and-wizeline-launch-chatbot-for-rugby-world-cup-sevens/
+    github: 
+    img: rwc-chatbot.png
+    tags: [NLP, Artificial Intelligence, Conversational UI, Facebook]
+  item3:
+    title: Customer Support Chatbot 
+    subtitle: A conversational UI to improve the Customer Experience.
+    description: I participated by leading the a team of engineers, UX designers, SREs and project managers to design, build, and deploy the solution. 
+    link: https://www.businesswire.com/news/home/20171024006839/en/TWG-and-Wizeline-Improve-the-Customer-Experience-with-Artificial-Intelligence
+    github:
+    img: twg-chatbot.png
+    tags: [NLP, Conversational UI, Artificial Intelligence]
 # Certifications and awards section
 awards:
   - FOUNDATIONS AND FOCUS Pragmatic Institute | Oct 2018

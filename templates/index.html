@@ -61,7 +61,10 @@
           <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
         </li> -->
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
+          <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+        </li>         
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#awards">Certifications</a>
         </li>
       </ul>
     </div>
@@ -106,7 +109,6 @@
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
       <div class="w-100">
         <h2 class="mb-5">Skills</h2>
-
         <div class="subheading mb-3">Programming Languages &amp; Tools</div>
         <ul class="list-inline dev-icons">
           {% for item in data.tools %}
@@ -115,7 +117,6 @@
           </li>
           {% endfor %}
         </ul>
-        
         <div class="subheading mb-3">Soft Skills</div>
         <ul class="fa-ul mb-0">
           {% for item in data.extra_skills %}
@@ -158,10 +159,9 @@
 
     <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
+    <section class="resume-section p-3 p-lg-5 align-items-center" id="education">
       <div class="w-100">
-        <h2 class="mb-5">Education</h2>
-        
+        <h2 class="mb-5">Education</h2>        
         {% for _, item in data.education.items() %}
         {% if _ != 'reference' %}
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
@@ -181,79 +181,15 @@
         {% endfor %}
       </div>
     </section>
-    <hr class="m-0">
-<!--  
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="community">
-      <div class="w-100">
-        <h2 class="mb-5">Community and social activity</h2>
-        
-        {% for _, item in data.community.items() %}
-        {% if _ != 'reference' %}
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">{{ item.institution }}</h3>
-            <div class="subheading mb-3">{{ item.program }}</div>
-            <div>{{ item.description }}</div>
-            {% if item.link != None %}
-            <a href="{{ item.link }}">Know more</a>
-            {% endif %}
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">{{ item.from }} - {{ item.to }}</span>
-          </div>
-        </div>
-        {% else %}
-        <p>For a detailed reference about this section, please visit <a href="{{ item }}" target="_blank">this link</a>.</p>
-        {% endif %}
-        {% endfor %}
-      </div>
-    </section>
 
     <hr class="m-0">
--->
-<!--
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="workshops">
-      <div class="w-100">
-        <h2 class="mb-5">Talks &amp; Workshops</h2>
-        <p>Some of my most recent talks and workshops are...</p>
-        <ul class="fa-ul mb-0">
-          {% for _, item in data.workshops.items() %}
-          <li>
-            {% if _ != 'reference' %}
-            <i class="fa-li fa fa-shapes text-info"></i>
-            <strong>{{ item.event }}</strong>
-            {% if item.material != None %}
-            <sup><a href='{{ item.material }}' target="_blank" class="badge badge-pill badge-primary">
-              Material <i class="fa fa-external-link-alt text-light"></i>
-            </a></sup>
-            {% endif %}
-            {% if item.link != None %}
-            <sup><a href='{{ item.link }}' target="_blank" class="badge badge-pill badge-danger">
-              Event site <i class="fa fa-external-link-alt text-light"></i>
-            </a></sup>
-            {% endif %}
-            <br> {{ item.workshop }} 
-            {% endif %}
-          </li>
-          {% endfor %}
-        </ul>
-        {% if 'reference' in data.workshops.keys() %}
-        <br><br>
-        <p>(More talks have happened between those dates <i>–most of them about AI–</i>, I'm only adding the most relevant ones in that period of time.)</p>
-        <p>For a detailed reference about this section, please visit <a href="{{ data.workshops.reference }}" target="_blank">this link</a>.</p>
-        {% endif %}
-      </div>
-    </section>
 
-    <hr class="m-0">
--->
-<!-- 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="projects">
+    <section class="resume-section p-3 p-lg-5 d-flex" id="projects">
       <div class="w-100">
         <h2 class="mb-5">Projects</h2>
-        <p>This section contains awesome projects that I've developed:</p> -->
+        <p>This section contains some projects I have lead:</p>
         <!-- Begins card -->
- <!--       <div class="row">
+        <div class="row">
           {% for _, item in data.projects.items() %}
           <div class="col-md-4 mb-5">
             <div class="card h-100">
@@ -274,7 +210,7 @@
                   <i class="fab fa-github-square fa-2x"></i>
                 </a>
                 {% endif %}
-                <a href="{{ item.link }}" class="btn btn-dark float-right" target="_blank">View project</a>
+                <a href="{{ item.link }}" class="btn btn-dark float-right" target="_blank">Read about it</a>
               </div>
             </div>
           </div>
@@ -282,17 +218,19 @@
         </div>
       </div>
     </section>
-    <hr class="m-0"> -->
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5  align-items-center" id="awards">
       <div class="w-100">
-        <h2 class="mb-5">Certifications</h2>
+        <h2 class="mb-5">Awards &amp; Certifications</h2>
         <ul class="fa-ul mb-0">
           {% for item in data.awards %}
           <li>
-            <i class="fa-li fa fa-certificate text-warning"></i>
+            <i class="fa fa-certificate text-warning"></i>
             {{ item }}</li>
           {% endfor %}
-        </ul> 
+        </ul>
       </div>
     </section>
     

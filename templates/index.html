@@ -91,7 +91,7 @@
         {% if value != None %}
           {% if key == 'website' %}
           <a href="{{ data.social.website }}" target="_blank">
-            <i class="fas fa-globe-americas"></i>
+            <i class="fa fa-address-card"></i>
           </a>
           {% else %}
           <a href="{{ value }}" target="_blank">
@@ -223,7 +223,7 @@
 
     <section class="resume-section p-3 p-lg-5  align-items-center" id="awards">
       <div class="w-100">
-        <h2 class="mb-5">Awards &amp; Certifications</h2>
+        <h2 class="mb-5">Certifications</h2>
         <ul class="fa-ul mb-0">
           {% for item in data.awards %}
           <li>

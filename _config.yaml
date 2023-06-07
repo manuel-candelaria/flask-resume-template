@@ -25,13 +25,13 @@ profile:
 
 # Social section
 social:
-  website: https://tool42.xyz
+  website: https://tinyurl.com/resume-lmcg
   github: https://github.com/manuel-candelaria/
   twitter: https://twitter.com/manu-candelaria/
   linkedin: https://www.linkedin.com/in/manuelcan/
   facebook:
   dev:
-  medium:
+  medium: https://medium.com/@manuelcandelaria
 
 
 # Experience section
@@ -58,7 +58,8 @@ experience:
     from: December 2017
     to: November 2018
     description: >
-      I collaborated with various teams to align company goals and oversee project delivery, while managing team performance, onboarding new engineers, and ensuring project and team health.  item4:
+      I collaborated with various teams to align company goals and oversee project delivery, while managing team performance, onboarding new engineers, and ensuring project and team health.  
+  item4:
     position: Program Manager
     company: Wizeline
     from: January 2017

@@ -25,7 +25,7 @@ profile:
 
 # Social section
 social:
-  website: https://tinyurl.com/resume-lmcg
+  website: https://tool42.netlify.app/  
   github: https://github.com/manuel-candelaria/
   twitter: https://twitter.com/manu-candelaria/
   linkedin: https://www.linkedin.com/in/manuelcan/
@@ -126,7 +126,6 @@ tools:
   - markdown
   - git
   - github
-  - google
   - google-drive
   - slack
   - trello
